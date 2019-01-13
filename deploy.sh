@@ -3,5 +3,5 @@
 echo "# Move site files to docroot"
 cp -r /tmp/src/site/* /var/www/html/
 
-echo "# place startup script"
-cp /tmp/src/scripts/run  /usr/libexec/s2i/run
+echo "# place pre-startup script"
+cp /tmp/src/scripts/pre-run  /var/www/cmd/pre-run
