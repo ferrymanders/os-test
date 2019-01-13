@@ -3,7 +3,7 @@
 set +x
 
 # Setup database info
-sed -i "s/DB_NAME_TAG/$MYSQL_DATABASE/" /var/www/html/wp-config.php
-sed -i "s/DB_USER_TAG/$MYSQL_USER/" /var/www/html/wp-config.php
-sed -i "s/DB_PASSWORD_TAG/$MYSQL_PASSWORD/" /var/www/html/wp-config.php
-sed -i "s/DB_HOST_TAG/$MYSQL_NAME/" /var/www/html/wp-config.php
+#sed -i "s/DB_NAME_TAG/$MYSQL_DATABASE/" /var/www/html/wp-config.php
+#sed -i "s/DB_USER_TAG/$MYSQL_USER/" /var/www/html/wp-config.php
+#sed -i "s/DB_PASSWORD_TAG/$MYSQL_PASSWORD/" /var/www/html/wp-config.php
+#sed -i "s/DB_HOST_TAG/$MYSQL_NAME/" /var/www/html/wp-config.php
